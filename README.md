@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # **Insurance Company Management System**
+## **Project Overview**
+Welcome to the Insurance Company Management System, a concise and streamlined solution designed for efficient management of insurance-related tasks. This project is built using Next.js, React, and Typescript, ensuring a robust and scalable foundation. The testing is done using react-testing-library, jest, and MSW for a reliable and well-tested application.
 
-## Getting Started
+# **Getting Started**
+To run the application locally, follow these steps:
 
-First, run the development server:
+1. Clone the repository:
+git clone https://github.com/Auryte/insurance_FE.git
 
-```bash
+2. Navigate to the project directory:
+cd insurance_FE
+
+3. Install dependencies:
+npm install
+
+4. Run the app in development mode:
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+*Note: To access the full functionality, you'll need to run the backend part of the system. Refer to [insurance_BE](https://github.com/Auryte/insurance_BE) for backend setup instructions. Once set up, contact the project owner for login credentials.*
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# **Project Features**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## **Administrator Dashboard**
+Upon logging in as an administrator, you'll encounter a dashboard with two main sections:
 
-## Learn More
+### **Employers Section:**
 
-To learn more about Next.js, take a look at the following resources:
+Modify each employer's profile.
+Adjust insurance plans for individual employers.
+Customize other settings related to employers.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Claims Section:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Access a comprehensive overview of all insurance claims.
+Approve or reject claims as needed.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Employer Portal**
+The employer portal is designed with a user-friendly interface, providing the following features:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+View personal data.
+Manage all employees efficiently.
+Edit employee information seamlessly.
+Assign insurance plans to employees.
+Upload a list of employees from a .csv file.
+
+## **License**
+This project is licensed under the MIT License.
