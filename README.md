@@ -6,17 +6,21 @@ Welcome to the Insurance Company Management System, a concise and streamlined so
 To run the application locally, follow these steps:
 
 1. Clone the repository:
+```console
 git clone https://github.com/Auryte/insurance_FE.git
-
+```
 2. Navigate to the project directory:
+```console
 cd insurance_FE
-
+```
 3. Install dependencies:
+```console
 npm install
-
+```
 4. Run the app in development mode:
+```console
 npm run dev
-
+```
 5. Open http://localhost:3000 in your browser.
 
 *Note: To access the full functionality, you'll need to run the backend part of the system. Refer to [insurance_BE](https://github.com/Auryte/insurance_BE) for backend setup instructions. Once set up, contact the project owner for login credentials.*
